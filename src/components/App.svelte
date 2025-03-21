@@ -15,7 +15,7 @@
 		technologies = [],
 		workExperiences = [],
 		educations = [],
-		interests = [],
+		certificates = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -117,14 +117,14 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">certificates</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
-				{#each interests as interest}
+				{#each certificates as cert}
 					<Hideable>
 						<li>
-							{interest}
+							{cert}
 						</li>
 					</Hideable>
 				{/each}

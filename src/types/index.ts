@@ -4,7 +4,7 @@ export interface IProfileResp {
 	technologies: ITechnology[];
 	workExperiences: IWorkExperience[];
 	educations: IEducation[];
-	interests: string[];
+	certificates: string[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
