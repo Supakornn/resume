@@ -5,11 +5,16 @@ export interface IProfileResp {
 	technologies: ITechnology[];
 	experiences: IExperience[];
 	educations: IEducation[];
-	achievements: string[];
+	achievements: IArchievement[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
 	};
+}
+
+export interface IArchievement {
+    title: string;
+    link: string;
 }
 export interface IIntro {
 	name: string;

@@ -123,7 +123,7 @@
 				{#each achievements as ar}
 					<Hideable>
 						<li>
-							{ar}
+							<a href={ar.link}>{ar.title}</a>
 						</li>
 					</Hideable>
 				{/each}
