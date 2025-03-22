@@ -1,10 +1,11 @@
+
 export interface IProfileResp {
 	intro: IIntro;
 	projects: IProject[];
 	technologies: ITechnology[];
-	workExperiences: IWorkExperience[];
+	experiences: IExperience[];
 	educations: IEducation[];
-	certificates: string[];
+	achievements: string[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
@@ -23,7 +24,7 @@ export interface IIntro {
 
 export interface IProject {
 	name: string;
-	details: string;
+	details: string[];
 	url: string;
 	hide: boolean;
 }
@@ -33,7 +34,7 @@ export interface ITechnology {
 	details: string;
 }
 
-export interface IWorkExperience {
+export interface IExperience {
 	position: string;
 	company: string;
 	url: string;

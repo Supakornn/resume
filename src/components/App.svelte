@@ -13,9 +13,9 @@
 		intro = {} as IProfileResp['intro'],
 		projects = [],
 		technologies = [],
-		workExperiences = [],
+		experiences = [],
 		educations = [],
-		certificates = [],
+		achievements = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -44,7 +44,7 @@
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
 	<Intro {...intro} />
 
-	<section>
+	<!-- <section>
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
 			<hr />
@@ -59,7 +59,7 @@
 				{/each}
 			</ul>
 		</Hideable>
-	</section>
+	</section> -->
 
 	<section>
 		<Hideable>
@@ -83,7 +83,7 @@
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
 			<hr />
 
-			{#each workExperiences as exp}
+			{#each experiences as exp}
 				<Work {...exp} />
 			{/each}
 		</Hideable>
@@ -94,32 +94,36 @@
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
 			<hr />
 
-			<ul class="text-left list-disc pl-8">
-				{#each projects as project}
-					<Hideable hide={project.hide}>
-						<li>
-							<strong>{project.name}</strong>
-							- {project.details}
+			{#each projects as project}
+				<Hideable hide={project.hide}>
+					<div class="text-left">
+						<div class="mb-2">
+							<strong>{project.name}</strong> -
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							>
-						</li>
-					</Hideable>
-				{/each}
-			</ul>
+						</div>
+						<ul class="text-left list-disc pl-8">
+							{#each project.details as detail}
+								<li>{detail}</li>
+							{/each}
+						</ul>
+					</div>
+				</Hideable>
+			{/each}
 		</Hideable>
 	</section>
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">certificates</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Achievements</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
-				{#each certificates as cert}
+				{#each achievements as ar}
 					<Hideable>
 						<li>
-							{cert}
+							{ar}
 						</li>
 					</Hideable>
 				{/each}

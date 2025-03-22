@@ -1,9 +1,9 @@
 {
 	"intro": {
 		"name": "Supakorn Ieamgomol",
-		"nickname": "Gap",
+		"nickname": "",
 		"phone": "",
-		"email": "contact@supakorn.info",
+		"email": "",
 		"github": "Supakornn",
 		"linkedin": "supakornieamgomol",
 		"location": "Bangkok, Thailand",
@@ -12,37 +12,40 @@
 	"projects": [
 		{
 			"name": "Thai-Bad-Words",
-			"details": "Co-Developed a library for detecting Thai bad words in TypeScript.",
+			"details": [
+                "Co-developed a TypeScript library for detecting Thai bad words.",
+                "Refactored the data structure to utilize a Trie for improved search performance.",
+                "Integrated comprehensive unit testing with Jest to enhance code reliability."            ],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
 		},
 		{
 			"name": "CodingType",
-			"details": "Website to test your code typing speed. built with Svelte, TailwindCSS.",
+			"details":["Website for test your code typing speed. inspired by monkeytype. built with Svelte, TailwindCSS."],
 			"url": "codingtype.vercel.app",
 			"hide": false
 		},
 		{
 			"name": "Valentine Roses",
-			"details": "Website for creating secret rose cards for your loved ones. built with Next, TailwindCSS, Firebase.",
+			"details": ["Website for creating secret rose cards for your loved ones. built with Next, TailwindCSS, Firebase."],
 			"url": "valentine-roses.vercel.app",
 			"hide": false
 		},
 		{
 			"name": "Goscanner",
-			"details": "Powerful port scanner tool, built with Go.",
+			"details": ["Powerful port scanner tool, built with Go."],
 			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
-		{
-			"name": "Leetcode Supakorn",
-			"details": "My leetcode solutions",
-			"url": "github.com/Supakornn/leetcode-supakornn",
-			"hide": false
-		},
+        {
+            "name": "Reverse Shell Generator",
+            "details": ["Reverse shell generator CLI tool, built with Go."],
+            "url": "github.com/Supakornn/reverse-shell-gen",
+            "hide": false
+        },
 		{
 			"name": "Lynx",
-			"details": "Contributed to lynx, edit .gitignore file to ignore auto-generated files.",
+			"details": ["Contributed to lynx, optimize .gitignore file to ignore auto-generated files."],
 			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		}
@@ -65,15 +68,16 @@
 			"details": "AWS, GCP, Firebase, Vercel, Github Actions, CloudFlare"
 		}
 	],
-	"workExperiences": [
+	"experiences": [
 		{
 			"position": "Freelance Developer",
-			"company": "Freelance",
+			"company": "",
 			"url": "https://supakorn.info",
 			"years": ["2021", "2023"],
 			"details": [
-                "Developed a website for a local business using NextJS and TailwindCSS",
-                "Developed a Backend API for a local business using NestJS and MongoDB"
+                "Co-developed a responsive website for business using Next.js and TailwindCSS",
+                "Co-developed a Backend API for a business using NestJS and MongoDB",
+                "Projects range: 5,000 - 150,000 THB"
 			]
 		}
 	],
@@ -83,9 +87,9 @@
 			"details": "King Mongkut's University of Technology Thonburi, TH. 2024-Present (GPA 3.70)"
 		}
 	],
-	"certificates": [
-        "HackerRank Software Engineer Intern",
-        "HackerRank Rest API (Intermediate)"
+	"achievements": [
+        "HackerRank Software Engineer Intern Certificate",
+        "HackerRank Rest API (Intermediate) Certificate"
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/supakornn/resume",
