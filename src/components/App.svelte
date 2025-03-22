@@ -97,8 +97,8 @@
 			{#each projects as project}
 				<Hideable hide={project.hide}>
 					<div class="text-left">
-						<div class="mb-2">
-							<strong>{project.name}</strong> -
+						<div class="flex justify-between mb-2">
+							<strong>{project.name}</strong>
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							>

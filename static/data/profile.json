@@ -13,39 +13,57 @@
 		{
 			"name": "Thai-Bad-Words",
 			"details": [
-                "Co-developed a TypeScript library for detecting Thai bad words.",
-                "Refactored the data structure to utilize a Trie for improved search performance.",
-                "Integrated comprehensive unit testing with Jest to enhance code reliability."            ],
+                "Contributed to a TypeScript library for detecting Thai bad words.",
+                "Optimized search performance by refactoring the data structure to use a Trie.",
+                "Implemented unit testing with Jest to enhance code reliability."
+            ],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
+			"hide": false
+		},
+        {
+			"name": "Goscanner",
+			"details": [
+                "Developed a high-performance network scanning tool in Go.",
+                "Implemented multiple scan techniques Ex. SYN, FIN, ACK, XMAS, and UDP scans.",
+                "Enhanced performance through concurrent scanning."
+               ],
+			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
 		{
 			"name": "CodingType",
-			"details":["Website for test your code typing speed. inspired by monkeytype. built with Svelte, TailwindCSS."],
+			"details":[
+              "Developed a web application for testing typing speed in various programming language syntaxes.",
+              "Built with Svelte and TailwindCSS, featuring a minimalistic and user-friendly interface.",
+              "Inspired by Monkeytype, offering customizable typing tests with real-time words-per-minute tracking."
+            ],
 			"url": "codingtype.vercel.app",
 			"hide": false
 		},
 		{
 			"name": "Valentine Roses",
-			"details": ["Website for creating secret rose cards for your loved ones. built with Next, TailwindCSS, Firebase."],
+			"details": [
+                "Developed a web application for sending virtual roses to loved ones on Valentine's Day.",
+                "Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
+                "Integrated with Firebase for real-time database updates and user authentication."
+            ],
 			"url": "valentine-roses.vercel.app",
-			"hide": false
-		},
-		{
-			"name": "Goscanner",
-			"details": ["Powerful port scanner tool, built with Go."],
-			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
         {
             "name": "Reverse Shell Generator",
-            "details": ["Reverse shell generator CLI tool, built with Go."],
+            "details": [
+                "Developed a command-line tool in Go to generate reverse shell commands across multiple programming languages and shells.",
+                "Implemented features supporting Bash, Python, PHP, PowerShell, and Netcat, enhancing versatility for various environments."
+            ],
             "url": "github.com/Supakornn/reverse-shell-gen",
             "hide": false
         },
 		{
 			"name": "Lynx",
-			"details": ["Contributed to lynx, optimize .gitignore file to ignore auto-generated files."],
+			"details": [
+                "Enhanced the Lynx project's .gitignore file by adding rules to exclude auto-generated files, particularly Gradle build artifacts.​"
+            ],
 			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		}
@@ -88,8 +106,8 @@
 		}
 	],
 	"achievements": [
-        "HackerRank Software Engineer Intern Certificate",
-        "HackerRank Rest API (Intermediate) Certificate"
+        "HackerRank Software Engineer Intern Certification​",
+        "Complete HackerRank Rest API (Intermediate) Certificate"
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/supakornn/resume",
