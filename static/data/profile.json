@@ -21,15 +21,23 @@
 			"hide": false
 		},
 		{
-			"name": "Goscanner",
+			"name": "GoScanner",
 			"details": [
-				"Developed a high-performance network scanning tool in Go.",
-				"Implemented multiple scan techniques Ex. SYN, FIN, ACK, XMAS, and UDP scans.",
-				"Enhanced performance through concurrent scanning."
+                "Built a high-speed, concurrent port scanner in Golang using goroutines for efficient parallel scanning.",
+                "Implemented SYN scanning for stealthier and faster network reconnaissance."
 			],
 			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
+        {
+            "name": "MyIP-TUI",
+            "details": [
+                "Developed a Rust-based TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
+                "Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics."
+            ],
+            "url": "github.com/Supakornn/myip-tui",
+            "hide": false
+        },
 		{
 			"name": "CodingType",
 			"details": [
@@ -41,7 +49,7 @@
 			"hide": false
 		},
 		{
-			"name": "Valentine Roses",
+			"name": "Valentine-Roses",
 			"details": [
 				"Developed a web application for sending virtual roses to loved ones on Valentine's Day.",
 				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
@@ -51,7 +59,7 @@
 			"hide": false
 		},
 		{
-			"name": "Reverse Shell Generator",
+			"name": "Reverse-Shell-Generator",
 			"details": [
 				"Developed a command-line tool in Go to generate reverse shell commands across multiple programming languages and shells.",
 				"Implemented features supporting Bash, Python, PHP, PowerShell, and Netcat, enhancing versatility for various environments."
