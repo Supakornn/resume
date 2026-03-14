@@ -5,7 +5,7 @@
 		"phone": "",
 		"email": "mail@supakorn.me",
 		"github": "supakornn",
-		"linkedin": "",
+		"linkedin": "supakornieamgomol",
 		"location": "Bangkok, Thailand",
 		"website": "supakorn.me"
 	},
@@ -136,24 +136,32 @@
 	],
 	"experiences": [
 		{
-			"position": "Research Assistant",
-			"company": "School of Information Technology, KMUTT",
-			"url": "https://www.sit.kmutt.ac.th/",
-			"years": ["Feb 2026 - April 2026"],
-			"details": ["Work in Progress"]
-		},
-		{
 			"position": "Software Engineer Intern",
 			"company": "Agoda, Thailand",
 			"url": "https://www.agoda.com/",
-			"years": ["June 2026 - July 2026"],
+			"years": ["June 2026 - August 2026"],
 			"details": ["Not started yet"]
+		},
+		{
+			"position": "Research Assistant",
+			"company": "School of Information Technology, King Mongkut's University of Technology Thonburi",
+			"url": "https://www.sit.kmutt.ac.th/",
+			"years": ["Feb 2026 - May 2026"],
+			"details": [
+				"Designed and developed an AI-assisted web application for automated exam grading with LLM integration.",
+				"Architected the full-stack system, including frontend, backend services, database infrastructure, and deployment pipelines.",
+				"Researched LLM and Vision-Language Model (VLM) approaches for handwritten answer OCR and automated grading."
+			]
 		}
 	],
 	"educations": [
 		{
 			"head": "B.Sc. Information Technology",
 			"details": "King Mongkut's University of Technology Thonburi, TH. 2024-Present (GPAX 3.81/4.00)"
+		},
+		{
+			"head": "HackTheBox Academy (Penetration Tester Path)",
+			"details": "Hands-on penetration testing training across network, web, and Active Directory environments."
 		}
 	],
 	"achievements": [
@@ -176,10 +184,6 @@
 		{
 			"title": "Kaggle Intermediate Machine Learning Certification | Advanced ML Techniques & Model Optimization",
 			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/intermediate-machine-learning"
-		},
-		{
-			"title": "HackTheBox Academy - Penetration Tester Job Role Path Certification | Cybersecurity & Ethical Hacking",
-			"link": "https://academy.hackthebox.com/achievement/1467577/path/16"
 		},
 		{
 			"title": "Devlab Programming Challenge - Top 0.5% (Rank 388/70,000+ Participants) | Problem Solving & Algorithms",
