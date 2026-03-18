@@ -10,15 +10,14 @@
 		"website": "supakorn.me"
 	},
 	"projects": [
-		{
-			"name": "MMORPG Shop - Microservices-Based Game Item Shop System",
+    {
+			"name": "Goscanner - Port scanner written in Go",
 			"details": [
-				"Designed 5-service microservices system (Auth, Player, Item, Inventory, Payment) with DDD and Clean Architecture",
-				"Implemented Kafka event-driven architecture with exactly-once processing and compensating transactions",
-				"Built gRPC services with JWT authentication and RBAC for secure inter-service communication",
-				"Tech Stack: Go, MongoDB, Apache Kafka, gRPC, Docker"
+				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
+				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
+				"Tech Stack: Go, Cobra"
 			],
-			"url": "github.com/supakornn/mmorpg-shop",
+			"url": "github.com/supakornn/goscanner",
 			"hide": false
 		},
 		{
@@ -29,16 +28,6 @@
 				"Tech Stack: Rust"
 			],
 			"url": "github.com/supakornn/nanorust",
-			"hide": false
-		},
-		{
-			"name": "Goscanner - Port scanner written in Go",
-			"details": [
-				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
-				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
-				"Tech Stack: Go, Cobra"
-			],
-			"url": "github.com/supakornn/goscanner",
 			"hide": false
 		},
 		{
