@@ -15,7 +15,6 @@
 			"details": [
 				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
 				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
-				"Tech Stack: Go, Cobra"
 			],
 			"url": "github.com/supakornn/goscanner",
 			"hide": false
@@ -25,7 +24,6 @@
 			"details": [
 				"Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
 				"Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal",
-				"Tech Stack: Rust"
 			],
 			"url": "github.com/supakornn/nanorust",
 			"hide": false
@@ -35,7 +33,6 @@
 			"details": [
 				"Refactored data structures and optimized search algorithms for improved content filtering performance",
 				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability",
-				"Tech Stack: TypeScript, Jest"
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
@@ -45,7 +42,6 @@
 			"details": [
 				"Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
 				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption",
-				"Tech Stack: Rust, Ratatui"
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
@@ -55,7 +51,6 @@
 			"details": [
 				"Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
 				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training",
-				"Tech Stack: Rust"
 			],
 			"url": "github.com/supakornn/mnist_rust",
 			"hide": false
@@ -65,7 +60,6 @@
 			"details": [
 				"Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
 				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility",
-				"Tech Stack: Svelte.js, TailwindCSS"
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
