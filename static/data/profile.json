@@ -131,9 +131,9 @@
 			"url": "https://www.sit.kmutt.ac.th/",
 			"years": ["Feb 2026 - May 2026"],
 			"details": [
-				"Designed and developed an AI-assisted web application for automated exam grading with LLM integration.",
-				"Architected the full-stack system, including frontend, backend services, database infrastructure, and deployment pipelines.",
-				"Researched LLM and Vision-Language Model (VLM) approaches for handwritten answer OCR and automated grading."
+        "Designed and built a full-stack exam grading platform with React, Hono, and PostgreSQL covering the full workflow — exam creation, student management, answer collection, and score reportin.",
+        "Integrated OpenAI and Gemini via Vercel AI SDK for AI-assisted rubric generation and essay grading with human review workflow.",
+        "Implemented Excel bulk import, role-based access control, and token-based invite system for multi-instructor collaboration."
 			]
 		}
 	],
