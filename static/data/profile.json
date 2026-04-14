@@ -14,7 +14,7 @@
 			"name": "Goscanner - Port scanner written in Go",
 			"details": [
 				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
-				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
+				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment"
 			],
 			"url": "github.com/supakornn/goscanner",
 			"hide": false
@@ -23,7 +23,7 @@
 			"name": "NanoRust - Terminal-Based Text Editor Written in Rust",
 			"details": [
 				"Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
-				"Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal",
+				"Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal"
 			],
 			"url": "github.com/supakornn/nanorust",
 			"hide": false
@@ -32,7 +32,7 @@
 			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
 			"details": [
 				"Refactored data structures and optimized search algorithms for improved content filtering performance",
-				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability",
+				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability"
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
@@ -41,7 +41,7 @@
 			"name": "MyIP - Terminal-Based Network Interface Monitor",
 			"details": [
 				"Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
-				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption",
+				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption"
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
@@ -50,7 +50,7 @@
 			"name": "MNIST Neural Network - Machine Learning from Scratch in Rust",
 			"details": [
 				"Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
-				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training",
+				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training"
 			],
 			"url": "github.com/supakornn/mnist_rust",
 			"hide": false
@@ -59,7 +59,7 @@
 			"name": "Codingtype - Typing Speed Test Platform for Developers",
 			"details": [
 				"Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
-				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility",
+				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility"
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
