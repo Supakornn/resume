@@ -6,7 +6,7 @@ export interface IProfileResp {
 	technologies: ITechnology[];
 	experiences: IExperience[];
 	educations: IEducation[];
-	achievements: IArchievement[];
+	achievements: IAchievement[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
@@ -15,12 +15,12 @@ export interface IProfileResp {
 
 export interface IContribution {
 	name: string;
-	details: string;
+	details: string[];
 	url: string;
 	hide: boolean;
 }
 
-export interface IArchievement {
+export interface IAchievement {
 	title: string;
 	link: string;
 }
@@ -50,12 +50,17 @@ export interface ITechnology {
 export interface IExperience {
 	position: string;
 	company: string;
+	location?: string;
 	url: string;
 	years: string[];
 	details: string[];
+	hide?: boolean;
 }
 
 export interface IEducation {
-	head: string;
-	details: string;
+	degree: string;
+	school: string;
+	location?: string;
+	years?: string;
+	gpa?: string;
 }

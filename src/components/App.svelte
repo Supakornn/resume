@@ -74,23 +74,6 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
-			<hr />
-
-			<ul class="text-left list-disc pl-8">
-				{#each educations as edu}
-					<Hideable>
-						<li>
-							<strong>{edu.head}</strong>, {edu.details}
-						</li>
-					</Hideable>
-				{/each}
-			</ul>
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
 			<hr />
 
@@ -107,14 +90,13 @@
 
 			{#each contributions as contribution}
 				<Hideable hide={contribution.hide}>
-					<div class="text-left">
-						<div class="flex justify-between mb-2">
-							<strong>{contribution.name}</strong>
-							<a href="https://{contribution.url}" target="_blank" rel="noreferrer" class="text-sm"
-								>{contribution.url}</a
-							>
+					<div class="text-left my-4 print:my-1">
+						<div class="flex justify-between mb-2 print:mb-1">
+							<a href="https://{contribution.url}" target="_blank" rel="noreferrer" class="font-bold">
+								{contribution.name}
+							</a>
 						</div>
-						<ul class="text-left list-disc pl-8">
+						<ul class="text-left list-disc pl-8 print:pl-6">
 							{#each contribution.details as detail}
 								<li>{detail}</li>
 							{/each}
@@ -132,18 +114,45 @@
 
 			{#each projects as project}
 				<Hideable hide={project.hide}>
-					<div class="text-left">
-						<div class="flex justify-between mb-2">
-							<strong>{project.name}</strong>
-							<a href="https://{project.url}" target="_blank" rel="noreferrer" class="text-sm"
-								>{project.url}</a
-							>
+					<div class="text-left my-4 print:my-1">
+						<div class="flex justify-between mb-2 print:mb-1">
+							<a href="https://{project.url}" target="_blank" rel="noreferrer" class="font-bold">
+								{project.name}
+							</a>
 						</div>
-						<ul class="text-left list-disc pl-8">
+						<ul class="text-left list-disc pl-8 print:pl-6">
 							{#each project.details as detail}
 								<li>{detail}</li>
 							{/each}
 						</ul>
+					</div>
+				</Hideable>
+			{/each}
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+			<hr />
+
+			{#each educations as edu}
+				<Hideable>
+					<div class="my-4 print:my-1">
+						<div class="flex mb-1 print:mb-0">
+							<div class="flex-1 text-left font-bold">
+								{edu.degree}{#if edu.gpa}&nbsp;<span class="font-normal">({edu.gpa})</span>{/if}
+							</div>
+							{#if edu.location}
+								<div class="flex-1 text-right font-normal">{edu.location}</div>
+							{/if}
+						</div>
+						<div class="flex">
+							<div class="flex-1 text-left">{edu.school}</div>
+							{#if edu.years}
+								<div class="flex-1 text-right font-normal">{edu.years}</div>
+							{/if}
+						</div>
 					</div>
 				</Hideable>
 			{/each}
@@ -198,20 +207,25 @@
 
 	@media print {
 		* {
-			font-size: 9pt !important;
-			line-height: 1.3;
+			font-size: 9.5pt !important;
+			line-height: 1.4;
 		}
 
-		a {
-			text-decoration: underline !important;
+		:global(a) {
+			text-decoration: none !important;
 		}
+
 
 		strong {
+			font-size: 9.5pt !important;
+		}
+
+		:global(.text-sm) {
 			font-size: 9pt !important;
 		}
 
 		section h2 {
-			font-size: 11pt !important;
+			font-size: 10.5pt !important;
 		}
 
 		:global(.print-only) {
@@ -229,12 +243,12 @@
 		}
 
 		li {
-			margin-bottom: 0.1rem;
+			margin-bottom: 0.15rem;
 		}
 
 		section {
-			margin-top: 0.2rem;
-			margin-bottom: 0.2rem;
+			margin-top: 0.4rem;
+			margin-bottom: 0.4rem;
 		}
 
 		section:first-of-type {
@@ -244,7 +258,8 @@
 		section hr {
 			margin-top: 0.05rem;
 			margin-bottom: 0.1rem;
-			border: 1px solid darkgrey !important;
+			border: none !important;
+			border-top: 0.5px solid #aaa !important;
 			print-color-adjust: exact;
 			-webkit-print-color-adjust: exact;
 		}

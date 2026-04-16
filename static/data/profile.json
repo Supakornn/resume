@@ -11,7 +11,7 @@
 	},
 	"projects": [
 		{
-			"name": "Goscanner - Port scanner written in Go",
+			"name": "Goscanner - Port Scanner in Go",
 			"details": [
 				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
 				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment"
@@ -20,7 +20,7 @@
 			"hide": false
 		},
 		{
-			"name": "NanoRust - Terminal-Based Text Editor Written in Rust",
+			"name": "NanoRust - Terminal Text Editor in Rust",
 			"details": [
 				"Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
 				"Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal"
@@ -29,7 +29,7 @@
 			"hide": false
 		},
 		{
-			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
+			"name": "Thai Bad Words - Thai Content Moderation Library (Co-Contributor)",
 			"details": [
 				"Refactored data structures and optimized search algorithms for improved content filtering performance",
 				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability"
@@ -38,7 +38,7 @@
 			"hide": false
 		},
 		{
-			"name": "MyIP - Terminal-Based Network Interface Monitor",
+			"name": "MyIP - Terminal Network Interface Monitor",
 			"details": [
 				"Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
 				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption"
@@ -47,7 +47,7 @@
 			"hide": false
 		},
 		{
-			"name": "MNIST Neural Network - Machine Learning from Scratch in Rust",
+			"name": "MNIST Neural Network - ML from Scratch in Rust",
 			"details": [
 				"Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
 				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training"
@@ -56,7 +56,7 @@
 			"hide": false
 		},
 		{
-			"name": "Codingtype - Typing Speed Test Platform for Developers",
+			"name": "Codingtype - Typing Speed Test for Developers",
 			"details": [
 				"Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
 				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility"
@@ -72,14 +72,6 @@
 				"Implemented custom ListenConfig support, enabling advanced server configuration options for framework users"
 			],
 			"url": "github.com/go-goyave/goyave/pull/280",
-			"hide": false
-		},
-		{
-			"name": "TLDR Pages - Community-Driven Command Cheatsheets",
-			"details": [
-				"Contributed new command documentation (crush) to help developers quickly reference terminal commands"
-			],
-			"url": "github.com/tldr-pages/tldr/pull/18326",
 			"hide": false
 		},
 		{
@@ -120,16 +112,23 @@
 	"experiences": [
 		{
 			"position": "Software Engineer Intern",
-			"company": "Agoda, Thailand",
+			"company": "Agoda",
+			"location": "Bangkok, TH",
 			"url": "https://www.agoda.com/",
-			"years": ["June 2026 - August 2026"],
-			"details": ["Not started yet"]
+			"years": [
+				"Jun. 2026 - Aug. 2026"
+			],
+			"details": [],
+			"hide": true
 		},
 		{
 			"position": "Research Assistant",
-			"company": "School of Information Technology, King Mongkut's University of Technology Thonburi",
+			"company": "SIT, KMUTT",
+			"location": "Bangkok, TH",
 			"url": "https://www.sit.kmutt.ac.th/",
-			"years": ["Feb 2026 - May 2026"],
+			"years": [
+				"Feb. 2026 - May 2026"
+			],
 			"details": [
 				"Build an AI-assisted grading platform for evaluating handwritten exam responses",
 				"Architected full-stack monorepo (React, Hono, PostgreSQL) with OpenAPI docs, JWT auth, and role-based access control",
@@ -141,46 +140,33 @@
 	],
 	"educations": [
 		{
-			"head": "B.Sc. Information Technology",
-			"details": "King Mongkut's University of Technology Thonburi, TH. 2024-Present (GPAX 3.81/4.00)"
-		},
-		{
-			"head": "HackTheBox Academy (Penetration Tester Path)",
-			"details": "Hands-on penetration testing training across network, web, and Active Directory environments."
+			"degree": "B.Sc. Information Technology",
+			"school": "King Mongkut's University of Technology Thonburi",
+			"location": "Bangkok, TH",
+			"years": "2024 - Present",
+			"gpa": "GPA: 3.81/4.00"
 		}
 	],
 	"achievements": [
 		{
-			"title": "Hacktoberfest 2025 Supercontributor | First 10,000 people reach the 6PR milestone",
+			"title": "Hacktoberfest 2025 Supercontributor (Top 10,000 globally)",
 			"link": "https://www.holopin.io/hacktoberfest2025/userbadge/cmgscau3u00cfkw042fhdq31t"
 		},
 		{
-			"title": "Kaggle Advanced SQL Certification | Advanced SQL Techniques & Query Optimization",
-			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/advanced-sql"
+			"title": "HackTheBox Academy - Penetration Tester Path",
+			"link": "https://www.hackthebox.com"
 		},
 		{
-			"title": "Kaggle Geospatial Analysis Certification | Geographic Data Science & Spatial Analytics",
-			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/geospatial-analysis"
-		},
-		{
-			"title": "Kaggle Data Cleaning Certification | Data Preprocessing & Quality Assurance",
-			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/data-cleaning"
-		},
-		{
-			"title": "Kaggle Intermediate Machine Learning Certification | Advanced ML Techniques & Model Optimization",
-			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/intermediate-machine-learning"
-		},
-		{
-			"title": "Devlab Programming Challenge - Top 0.5% (Rank 388/70,000+ Participants) | Problem Solving & Algorithms",
+			"title": "Devlab Programming Challenge - Top 0.5%",
 			"link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
 		},
 		{
-			"title": "HackerRank Certified Software Engineer Intern | Technical Assessment & Problem Solving",
+			"title": "HackerRank: Certified Software Engineer Intern, REST API (Intermediate)",
 			"link": "https://www.hackerrank.com/certificates/iframe/802010770e14"
 		},
 		{
-			"title": "HackerRank REST API (Intermediate) Certificate | Backend Development & API Design",
-			"link": "https://www.hackerrank.com/certificates/iframe/ebf6fe5b2f66"
+			"title": "Kaggle: Advanced SQL, Intermediate ML, Geospatial Analysis, Data Cleaning",
+			"link": "https://www.kaggle.com/supakornieamgomol"
 		}
 	],
 	"resumeUrl": {

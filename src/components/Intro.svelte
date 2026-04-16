@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let name: string = 'Foo';
+	export let name: string = '';
 	export let nickname: string = '';
 	export let phone: string = '';
 	export let email: string = '';
@@ -7,36 +7,32 @@
 	export let location: string = '';
 	export let website: string = '';
 	export let linkedin: string = '';
+
+	$: contacts = [
+		email ? { label: email, href: `mailto:${email}` } : null,
+		github ? { label: `github.com/${github}`, href: `https://github.com/${github}` } : null,
+		website ? { label: website, href: `https://${website}` } : null,
+		phone ? { label: phone, href: `tel:${phone}` } : null,
+		location ? { label: location, href: null } : null,
+	].filter(Boolean);
 </script>
 
-<div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base">
-	<div class="flex-1 text-left sm:py-4 w-48">
-		<p><a href={`tel:${phone}`}>{phone}</a></p>
-		<p><a href={`mailto:${email}`}>{email}</a></p>
-		<p>{location}</p>
-	</div>
-
-	<h2
-		class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
-	>
+<div class="text-center py-4 print:py-1">
+	<h1 class="text-4xl lg:text-5xl font-bold print:text-xl mb-1">
 		{name}
-		<span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
-	</h2>
-
-	<div class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base">
-		<p>
-			<a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
-				>github.com/{github}</a
-			>
-		</p>
-		<p>
-			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
-		</p>
-		<p>
-			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer"
-				>linkedin.com/in/{linkedin}</a
-			>
-		</p>
+		{#if nickname}
+			<span class="web-only text-2xl font-normal text-gray-500">({nickname})</span>
+		{/if}
+	</h1>
+	<div class="flex flex-wrap justify-center gap-x-1">
+		{#each contacts as contact, i}
+			{#if i > 0}<span class="text-gray-400">·</span>{/if}
+			{#if contact.href}
+				<a href={contact.href} target="_blank" rel="noreferrer">{contact.label}</a>
+			{:else}
+				<span>{contact.label}</span>
+			{/if}
+		{/each}
 	</div>
 </div>
 
@@ -47,28 +43,17 @@
 
 	@media print {
 		div {
-			font-size: 8pt !important;
 			padding: 0 !important;
-			margin-bottom: 0.2rem !important;
+			margin-bottom: 0.3rem;
 		}
 
-		div p {
-			margin: 0 !important;
-			line-height: 1.2;
-		}
-
-		h2 {
+		h1 {
 			font-size: 16pt !important;
-			padding: 0 !important;
-			margin: 0 !important;
-			line-height: 1.1 !important;
+			margin-bottom: 0.2rem;
 		}
 
-		h2 span {
-			font-size: 9pt !important;
-			margin-top: 0 !important;
-			display: inline-block;
-			margin-left: 0.2rem;
+		.flex {
+			font-size: 8pt !important;
 		}
 	}
 </style>
