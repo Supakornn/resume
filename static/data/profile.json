@@ -13,55 +13,25 @@
 		{
 			"name": "Goscanner - Port Scanner in Go",
 			"details": [
-				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
-				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment"
+				"Built a concurrent port scanner in Go using goroutines with TCP and UDP scanning support."
 			],
 			"url": "github.com/supakornn/goscanner",
 			"hide": false
 		},
 		{
-			"name": "NanoRust - Terminal Text Editor in Rust",
-			"details": [
-				"Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
-				"Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal"
-			],
-			"url": "github.com/supakornn/nanorust",
-			"hide": false
-		},
-		{
-			"name": "Thai Bad Words - Thai Content Moderation Library (Co-Contributor)",
-			"details": [
-				"Refactored data structures and optimized search algorithms for improved content filtering performance",
-				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability"
-			],
-			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
-			"hide": false
-		},
-		{
 			"name": "MyIP - Terminal Network Interface Monitor",
 			"details": [
-				"Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
-				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption"
+				"Built a terminal-based network interface monitor in Rust and published it on crates.io with 3,494+ downloads."
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
 		},
 		{
-			"name": "MNIST Neural Network - ML from Scratch in Rust",
+			"name": "Naruto Knowledge Graph",
 			"details": [
-				"Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
-				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training"
+				"Built an interactive knowledge graph for exploring relationships between Naruto jutsu, clans, users, and chakra natures."
 			],
-			"url": "github.com/supakornn/mnist_rust",
-			"hide": false
-		},
-		{
-			"name": "Codingtype - Typing Speed Test for Developers",
-			"details": [
-				"Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
-				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility"
-			],
-			"url": "codingtype.vercel.app",
+			"url": "narutojutsu.vercel.app",
 			"hide": false
 		}
 	],
@@ -119,8 +89,7 @@
 			"details": [
 				"Extended Agoda's property import and onboarding system by implementing backend support for an additional Online Travel Agency (OTA) integration.",
 				"Developed backend services and business logic in C#/.NET to support property import workflows within an existing production system.",
-				"Implemented data transformation and validation logic to ensure imported property data was compatible with Agoda's internal domain model.",
-				"Worked with PostgreSQL and Couchbase to support scalable property import and onboarding workflows."
+				"Implemented data transformation and validation logic using PostgreSQL and Couchbase to ensure imported property data was compatible with Agoda's domain model."
 			]
 		},
 		{
@@ -128,15 +97,11 @@
 			"company": "SIT, KMUTT",
 			"location": "Bangkok, TH",
 			"url": "https://www.sit.kmutt.ac.th/",
-			"years": [
-				"Feb. 2026 - May 2026"
-			],
+			"years": ["Feb. 2026 - May 2026"],
 			"details": [
-				"Build an AI-assisted grading platform for evaluating handwritten exam responses",
-				"Architected full-stack monorepo (React, Hono, PostgreSQL) with OpenAPI docs, JWT auth, and role-based access control",
-				"Built multi-provider LLM layer (OpenAI, Gemini) with per-user API keys and dynamic model selection for flexibility",
-				"Established shared type-safe schema (Zod) across frontend/backend, eliminating runtime validation errors",
-				"Designed rubric-driven grading pipeline supporting both instructor-defined and AI-generated rubrics, enabling consistent LLM-based scoring"
+				"Built an AI-assisted grading platform for evaluating handwritten exam responses using React, Hono, and PostgreSQL.",
+				"Developed a multi-provider LLM integration (OpenAI, Gemini) with dynamic model selection and per-user API key support.",
+				"Designed a rubric-driven grading pipeline with shared type-safe schemas (Zod), JWT authentication, and role-based access control."
 			]
 		}
 	],
