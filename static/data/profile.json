@@ -115,11 +115,13 @@
 			"company": "Agoda",
 			"location": "Bangkok, TH",
 			"url": "https://www.agoda.com/",
-			"years": [
-				"Jun. 2026 - Aug. 2026"
-			],
-			"details": [],
-			"hide": true
+			"years": ["Jun. 2026 - Aug. 2026"],
+			"details": [
+				"Extended Agoda's property import and onboarding system by implementing backend support for an additional Online Travel Agency (OTA) integration.",
+				"Developed backend services and business logic in C#/.NET to support property import workflows within an existing production system.",
+				"Implemented data transformation and validation logic to ensure imported property data was compatible with Agoda's internal domain model.",
+				"Worked with PostgreSQL and Couchbase to support scalable property import and onboarding workflows."
+			]
 		},
 		{
 			"position": "Research Assistant",
