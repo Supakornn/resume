@@ -21,7 +21,7 @@
 		{
 			"name": "MyIP - Terminal Network Interface Monitor",
 			"details": [
-				"Built a terminal-based network interface monitor in Rust and published it on crates.io with 3,494+ downloads."
+				"Built a terminal-based network interface monitor in Rust and published it on crates.io with 3,000+ downloads."
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
