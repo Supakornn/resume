@@ -13,7 +13,8 @@
 		{
 			"name": "Goscanner - Port Scanner in Go",
 			"details": [
-				"Built a concurrent port scanner in Go using goroutines with TCP and UDP scanning support."
+				"Built a concurrent port scanner in Go using goroutines with TCP and UDP scanning support.",
+				"Designed a worker-pool architecture with configurable concurrency for efficient large-scale network scanning."
 			],
 			"url": "github.com/supakornn/goscanner",
 			"hide": false
@@ -21,7 +22,8 @@
 		{
 			"name": "MyIP - Terminal Network Interface Monitor",
 			"details": [
-				"Built a terminal-based network interface monitor in Rust and published it on crates.io with 3,000+ downloads."
+				"Built a terminal-based network interface monitor in Rust and published it on crates.io with 3,000+ downloads.",
+				"Implemented a cross-platform terminal UI with real-time network interface monitoring and system information retrieval."
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
@@ -29,7 +31,8 @@
 		{
 			"name": "Naruto Knowledge Graph",
 			"details": [
-				"Built an interactive knowledge graph for exploring relationships between Naruto jutsu, clans, users, and chakra natures."
+				"Built an interactive knowledge graph for exploring relationships between Naruto jutsu, clans, users, and chakra natures.",
+				"Designed a graph data model and interactive visualization enabling dynamic relationship exploration and filtering."
 			],
 			"url": "narutojutsu.vercel.app",
 			"hide": false
@@ -39,7 +42,8 @@
 		{
 			"name": "Goyave - Go REST API Framework",
 			"details": [
-				"Implemented custom ListenConfig support, enabling advanced server configuration options for framework users"
+				"Implemented custom ListenConfig support, enabling advanced server configuration options for framework users.",
+				"Contributed production-ready Go code with tests through the project's open-source review process."
 			],
 			"url": "github.com/go-goyave/goyave/pull/280",
 			"hide": false
@@ -47,7 +51,8 @@
 		{
 			"name": "Pruna - AI Model Optimization Framework",
 			"details": [
-				"Migrated type checking system from mypy to ty, improving code quality and type safety across codebase"
+				"Migrated the type checking system from mypy to ty, improving code quality and type safety across the codebase.",
+				"Refactored project-wide type annotations and resolved compatibility issues during the migration."
 			],
 			"url": "github.com/PrunaAI/pruna/pull/360",
 			"hide": false
@@ -86,9 +91,9 @@
 			"location": "Bangkok, TH",
 			"url": "https://www.agoda.com/",
 			"years": ["Aug. 2026 - Dec. 2026"],
-			"details": [
-			]
-		},		{
+			"details": []
+		},
+		{
 			"position": "Software Engineer Intern",
 			"company": "Agoda",
 			"location": "Bangkok, TH",
@@ -107,8 +112,8 @@
 			"url": "https://www.sit.kmutt.ac.th/",
 			"years": ["Feb. 2026 - May 2026"],
 			"details": [
-				"Built an AI-assisted grading platform for evaluating handwritten exam responses using React, Hono, and PostgreSQL.",
-				"Developed a multi-provider LLM integration (OpenAI, Gemini) with dynamic model selection and per-user API key support.",
+				"Built the MVP of an AI-assisted grading platform from the ground up using React, Hono, and PostgreSQL.",
+				"Integrated multiple LLM providers (OpenAI, Gemini) with dynamic model selection and per-user API key management.",
 				"Designed a rubric-driven grading pipeline with shared type-safe schemas (Zod), JWT authentication, and role-based access control."
 			]
 		}
