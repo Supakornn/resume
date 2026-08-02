@@ -81,11 +81,19 @@
 	],
 	"experiences": [
 		{
+			"position": "Software Engineer Intern (Part-Time)",
+			"company": "Agoda",
+			"location": "Bangkok, TH",
+			"url": "https://www.agoda.com/",
+			"years": ["Aug. 2026 - Dec. 2026"],
+			"details": [
+			]
+		},		{
 			"position": "Software Engineer Intern",
 			"company": "Agoda",
 			"location": "Bangkok, TH",
 			"url": "https://www.agoda.com/",
-			"years": ["Jun. 2026 - Aug. 2026"],
+			"years": ["Jun. 2026 - Jul. 2026"],
 			"details": [
 				"Extended Agoda's property import and onboarding system by implementing backend support for an additional Online Travel Agency (OTA) integration.",
 				"Developed backend services and business logic in C#/.NET to support property import workflows within an existing production system.",
@@ -93,7 +101,7 @@
 			]
 		},
 		{
-			"position": "Research Assistant",
+			"position": "Research Assistant (Apprenticeship)",
 			"company": "SIT, KMUTT",
 			"location": "Bangkok, TH",
 			"url": "https://www.sit.kmutt.ac.th/",
