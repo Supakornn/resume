@@ -11,15 +11,6 @@
 	},
 	"projects": [
 		{
-			"name": "Goscanner - Port Scanner in Go",
-			"details": [
-				"Built a concurrent port scanner in Go using goroutines with TCP and UDP scanning support.",
-				"Designed a worker-pool architecture with configurable concurrency for efficient large-scale network scanning."
-			],
-			"url": "github.com/supakornn/goscanner",
-			"hide": false
-		},
-		{
 			"name": "MyIP - Terminal Network Interface Monitor",
 			"details": [
 				"Built a terminal-based network interface monitor in Rust and published it on crates.io with 3,000+ downloads.",
@@ -35,6 +26,15 @@
 				"Designed a graph data model and interactive visualization enabling dynamic relationship exploration and filtering."
 			],
 			"url": "narutojutsu.vercel.app",
+			"hide": false
+		},
+		{
+			"name": "Goscanner - Port Scanner in Go",
+			"details": [
+				"Built a concurrent port scanner in Go using goroutines with TCP and UDP scanning support.",
+				"Designed a worker-pool architecture with configurable concurrency for efficient large-scale network scanning."
+			],
+			"url": "github.com/supakornn/goscanner",
 			"hide": false
 		}
 	],
