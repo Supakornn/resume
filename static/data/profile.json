@@ -58,32 +58,6 @@
 			"hide": false
 		}
 	],
-	"technologies": [
-		{
-			"section": "Languages:",
-			"details": "JavaScript, TypeScript, Python, GO, Rust, Zig, SQL"
-		},
-		{
-			"section": "Frameworks:",
-			"details": "ReactJS, NextJS, NestJS, SvelteJS, AstroJs, Fiber, Echo, TailwindCSS, Bootstrap, React Native"
-		},
-		{
-			"section": "Tools:",
-			"details": "Git, Docker, Jest, Cypress"
-		},
-		{
-			"section": "Machine Learning & AI:",
-			"details": "Neural Networks, Deep Learning, Backpropagation, Gradient Descent, Model Training, MNIST Dataset"
-		},
-		{
-			"section": "Cybersecurity:",
-			"details": "Penetration Testing, Ethical Hacking, Vulnerability Assessment, Security Research, Network Security, Cryptography"
-		},
-		{
-			"section": "Other:",
-			"details": "AWS, GCP, Firebase, Vercel, Github Actions, CloudFlare"
-		}
-	],
 	"experiences": [
 		{
 			"position": "Software Engineer Intern (Part-Time)",

@@ -3,7 +3,6 @@ export interface IProfileResp {
 	summary?: string;
 	projects: IProject[];
 	contributions: IContribution[];
-	technologies: ITechnology[];
 	experiences: IExperience[];
 	educations: IEducation[];
 	achievements: IAchievement[];
@@ -40,11 +39,6 @@ export interface IProject {
 	details: string[];
 	url: string;
 	hide: boolean;
-}
-
-export interface ITechnology {
-	section: string;
-	details: string;
 }
 
 export interface IExperience {

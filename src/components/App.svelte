@@ -13,7 +13,6 @@
 		summary = '',
 		projects = [],
 		contributions = [],
-		// technologies = [],
 		experiences = [],
 		educations = [],
 		achievements = [],
@@ -54,23 +53,6 @@
 			</Hideable>
 		</section>
 	{/if}
-
-	<!-- <section>
-		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
-			<hr />
-			<ul class="text-left list-disc pl-8">
-				{#each technologies as tech}
-					<Hideable>
-						<li>
-							<span class="w-28 inline-block">{tech.section}</span>
-							<span>{tech.details}</span>
-						</li>
-					</Hideable>
-				{/each}
-			</ul>
-		</Hideable>
-	</section> -->
 
 	<section>
 		<Hideable>
