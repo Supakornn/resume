@@ -11,6 +11,7 @@
 	$: contacts = [
 		email ? { label: email, href: `mailto:${email}` } : null,
 		github ? { label: `github.com/${github}`, href: `https://github.com/${github}` } : null,
+		linkedin ? { label: `linkedin.com/in/${linkedin}`, href: `https://linkedin.com/in/${linkedin}` } : null,
 		website ? { label: website, href: `https://${website}` } : null,
 		phone ? { label: phone, href: `tel:${phone}` } : null,
 		location ? { label: location, href: null } : null,
