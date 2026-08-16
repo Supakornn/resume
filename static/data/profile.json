@@ -91,7 +91,8 @@
 			"location": "Bangkok, TH",
 			"url": "https://www.agoda.com/",
 			"years": ["Aug. 2026 - Dec. 2026"],
-			"details": []
+			"details": [],
+			"hide": true
 		},
 		{
 			"position": "Software Engineer Intern",
@@ -100,9 +101,9 @@
 			"url": "https://www.agoda.com/",
 			"years": ["Jun. 2026 - Jul. 2026"],
 			"details": [
-				"Extended Agoda's property import and onboarding system by implementing backend support for an additional Online Travel Agency (OTA) integration.",
-				"Developed backend services and business logic in C#/.NET to support property import workflows within an existing production system.",
-				"Implemented data transformation and validation logic using PostgreSQL and Couchbase to ensure imported property data was compatible with Agoda's domain model."
+				"Extended Agoda's property-onboarding flow to support an additional OTA integration within an automatic URL-based import system in C#/.NET.",
+				"Implemented data transformation and validation logic using PostgreSQL and Couchbase for domain-model compatibility.",
+				"Monitored an A/B rollout using Grafana, quickly diagnosing and resolving issues to maintain a smooth experience for users."
 			]
 		},
 		{
