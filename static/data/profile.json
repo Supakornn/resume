@@ -98,13 +98,13 @@
 			"degree": "B.Sc. Information Technology",
 			"school": "King Mongkut's University of Technology Thonburi",
 			"location": "Bangkok, TH",
-			"years": "2024 - Present",
-			"gpa": "GPA: 3.81/4.00"
+			"years": "2024 - 2028",
+			"gpa": "GPA: 3.72/4.00"
 		}
 	],
 	"achievements": [
 		{
-			"title": "Hacktoberfest 2025 Supercontributor (Top 10,000 globally)",
+			"title": "Hacktoberfest 2025 - Supercontributor (Top 10,000 globally)",
 			"link": "https://www.holopin.io/hacktoberfest2025/userbadge/cmgscau3u00cfkw042fhdq31t"
 		},
 		{
@@ -118,10 +118,6 @@
 		{
 			"title": "HackerRank: Certified Software Engineer Intern, REST API (Intermediate)",
 			"link": "https://www.hackerrank.com/profile/supakorn0728"
-		},
-		{
-			"title": "Kaggle: Advanced SQL, Intermediate ML, Geospatial Analysis, Data Cleaning",
-			"link": "https://www.kaggle.com/supakornieamgomol"
 		}
 	],
 	"resumeUrl": {
